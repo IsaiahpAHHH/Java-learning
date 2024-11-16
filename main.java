@@ -1,4 +1,7 @@
 public class Main {
+    static int plusOne(int ask) {
+        return ask = ask = 1;
+    }
     public static void main(String[] args) {
         //yowza it worked !!! :O
         //make sure to have semicolon; got it;>
@@ -16,8 +19,8 @@ public class Main {
 		System.out.println(a + 4);
 		System.out.println(a);
 		System.out.println(a % 2 == 0);
-        double[] arr = {1,2,3,4.5};
-        System.out.println(arr.length);
+        double[] arrr = {1,2,3,4.5};
+        System.out.println(arrr.length);
         //this didnt work till i manually retyped it 
         boolean[] grr = new boolean[100];
         System.out.println(grr[1] || grr[2]);
@@ -30,10 +33,24 @@ public class Main {
             x = x + 1;
         }
         double sum = 0;
-        for (double e : arr) {
+        for (double e : arrr) {
             sum = sum + e;
             System.out.println(sum);
         }
         //so smart
+        int sign = 2;
+        plusOne(sign); {
+            System.out.println(sign);
+        }
+        int[] arr = {1,2,2,3,4,5,6,7};
+        double[][] board = {{1.8,2,3},{4,5,6.2}};
+        int n = 2;
+        int f = 1928391972;
+        System.out.println(n + " shouws up " + PRACTICE.countOccurences(arr,n) + " times.");
+        //YAY
+        System.out.println("here's the reverse array loser " + PRACTICE.printIntArray(PRACTICE.reVerso(arr)));
+        System.out.println("oh my sigma! heres the sum of the grid! " + PRACTICE.sumBoard(board));
+        System.out.println("pinecone " + PRACTICE.fib(f));
+
     }
 }
