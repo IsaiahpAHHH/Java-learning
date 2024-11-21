@@ -1,6 +1,8 @@
+package java101;
+import java102.Point;
 public class Main {
     static int plusOne(int ask) {
-        return ask = ask = 1;
+        return ask = 1;
     }
     public static void main(String[] args) {
         //yowza it worked !!! :O
@@ -51,6 +53,15 @@ public class Main {
         System.out.println("here's the reverse array loser " + PRACTICE.printIntArray(PRACTICE.reVerso(arr)));
         System.out.println("oh my sigma! heres the sum of the grid! " + PRACTICE.sumBoard(board));
         System.out.println("pinecone " + PRACTICE.fib(f));
+        Point point = new Point(8, 7);
+        System.out.println("x: " + point.x + "y: " + point.y);
+        Point xTranslation = point.translateX(99);
+        Point yTranslation = point.translateY(-70);
+        Point xyTranslation = point.translateX(-8).translateY(-7);
+        System.out.println("x transl: " + xTranslation);
+        System.out.println("y transl: " + yTranslation);
+        System.out.println("xy transl: " + xyTranslation);
 
     }
+
 }

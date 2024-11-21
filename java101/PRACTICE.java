@@ -1,3 +1,4 @@
+package java101;
 public class PRACTICE {
     public static int countOccurences(int[] arr, int n) {
         int count = 0;
@@ -33,6 +34,7 @@ public class PRACTICE {
         for (int eggs = 0; eggs < board.length; eggs++) {
             for (int bacon = 0; bacon < board[eggs].length; bacon++) {
                 um += board[eggs][bacon];
+                //i hate nest eggs or whatever
             }
         }
         return um;
@@ -44,6 +46,7 @@ public class PRACTICE {
         if (f == 1) {
             return 1;
         }
+        //had to get ai help for the two top parts i couldnt figure it out
         int one = 0, two = 1;
         int find = 0;
         for(int e = 2; e <= f; e++) {
