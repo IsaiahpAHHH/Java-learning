@@ -42,5 +42,6 @@ public class Point {
 		}
 		return new Point(xsum/lengthh, ysum/lengthh);		
 	}
+	//im actually really proud of this one i did it without ai lmao
 }
-
+//couldnt do the angle stuff, the trig tutorial link is broken
