@@ -56,4 +56,13 @@ public class PRACTICE {
         }
         return find;
     }
+    public static String germs(int germ) {
+        if (germ == 0) {
+            return ("wow so clean!");
+        }
+        if (germ > 0) {
+            return ("disgusting RAT!");
+        }
+        return ("thats ur cleanliness rating");
+    }
 }

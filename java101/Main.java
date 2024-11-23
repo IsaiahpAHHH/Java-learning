@@ -61,7 +61,16 @@ public class Main {
         System.out.println("x transl: " + xTranslation);
         System.out.println("y transl: " + yTranslation);
         System.out.println("xy transl: " + xyTranslation);
-
+        Point s = new Point(0,4);
+        Point d = new Point(0,20);
+        System.out.println(Point.distance(s, d));
+        int germ = 0;
+        System.out.println("calculating clean \n" + PRACTICE.germs(germ));
+        Point[] points = {
+            new Point(1,2),
+            new Point(3,4),
+            new Point(5,9)
+        };
+        System.out.println("center of mass " + Point.centerOfMass(points));
     }
-
 }
